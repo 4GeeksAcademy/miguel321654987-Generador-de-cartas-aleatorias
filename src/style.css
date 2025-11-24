@@ -1,5 +1,78 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: green;
+}
+
+.card {
+    margin: auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.paloTop {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.simbolo {
+    text-align: center;
+    font-size: 200px;
+    height: 300px;
+
+}
+
+.paloDown {
+
+    display: flex;
+    position: absolute;
+    /* Posicionamiento absoluto */
+    bottom: 0;
+    /* Alineado al borde inferior */
+    right: 0;
+
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(180deg);
+
+}
+
+#elBoton {
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+}
+
+.spade {
+    color: black;
+}
+
+.club {
+    color: black;
+}
+
+.heart {
+    color: red;
+}
+
+.diamond {
+    color: red;
 }
